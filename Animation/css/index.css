@@ -1,0 +1,21 @@
+ /* The animation code */
+@keyframes divcolor{
+    0% {background-color: white;}
+    25% {background-color: darkgrey}
+    50%{background-color: cornsilk; 
+        transform: rotate(90deg)}
+    75% {background-color: darkgrey}
+    100% {background-color: white; 
+        transform: rotate(0deg) }
+       
+}
+
+/* The element to apply the animation to */
+.logoanimation {
+  width: 80px;
+  height: 90px;
+  background-color: red;
+  animation-name: divcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;   
+} 
